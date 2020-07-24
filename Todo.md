@@ -1,5 +1,34 @@
 # Client (C Version)
-- 1. [ ] Give the Project a name 
-- 2. [ ] Merge the code base
-- 3. [ ] Implement Inventory System
-- 4. [ ] Implement Networking
+- Client Only
+     - Entity
+        - Player
+          - 1. [ ] Implement Player Movement in All Graphics apis
+          - 2. [ ] Add Player Cullsion
+          - 3. [ ] Fix Player SDL Rendering
+       - Sound
+          - 1. [ ] Implement Sound
+          - 2. [ ] Implement Ogg decoding
+          - 3. [ ] Implement Mp3 decoding
+          - 4. [ ] Implement Close function
+- Server/Client
+     - General
+        - 1. [ ] Give the Project a name 
+        - 2. [ ] Merge the code base
+    - Networking
+        - 4. [ ] Implement Networking
+
+
+- Items
+  - 1. [ ] Add more Items
+  - 2. [ ] Create a list of items
+  - 3. [ ] Implement Item drawing
+  - 4. [ ] Implement Item usage
+  - 3. [ ] Implement Inventory System
+- Lua
+  - 1. [ ] Wrap SDL 2 functions
+  - 2. [ ] Finish Wrapping OpenGL functions
+  - 3. [ ] Add Lua Items
+- Entity
+  - 1. [ ] Implement Multiplayer handler
+  - 2. [ ] Implement More Entities
+- Server Only
