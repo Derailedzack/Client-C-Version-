@@ -14,16 +14,17 @@
      - General
         - 1. [ ] Give the Project a name 
         - 2. [ ] Merge the code base
+        - 3. [ ] Update Github repo
     - Networking
-        - 4. [ ] Implement Networking
+        - 1. [ ] Implement Networking
 
 
 - Items
-  - 1. [ ] Add more Items
-  - 2. [ ] Create a list of items
-  - 3. [ ] Implement Item drawing
-  - 4. [ ] Implement Item usage
-  - 3. [ ] Implement Inventory System
+     - 1. [ ] Add more Items
+     - 2. [ ] Create a list of items
+     - 3. [ ] Implement Item drawing
+     - 4. [ ] Implement Item usage
+     - 3. [x] Implement Inventory System
 - Lua
   - 1. [ ] Wrap SDL 2 functions
   - 2. [ ] Finish Wrapping OpenGL functions
