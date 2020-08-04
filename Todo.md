@@ -4,7 +4,7 @@
         - Player
           - 1. [ ] Implement Player Movement in All Graphics apis
           - 2. [ ] Add Player Cullsion
-          - 3. [ x] Fix Player SDL Rendering
+          - 3. [x] Fix Player SDL Rendering
        - Sound
           - 1. [ ] Implement Sound
           - 2. [ ] Implement Ogg decoding
