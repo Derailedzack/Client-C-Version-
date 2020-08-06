@@ -15,6 +15,7 @@
         - 1. [ ] Give the Project a name 
         - 2. [ ] Merge the code base
         - 3. [ ] Update Github repo
+        - 4. [ ] Remove Duplicate Code
     - Networking
         - 1. [ ] Implement Networking
 
