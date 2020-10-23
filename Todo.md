@@ -2,14 +2,17 @@
 - Client Only
      - Entity
         - Player
-          - 1. [ ] Implement Player Movement in All Graphics apis
-          - 2. [ ] Add Player Cullsion
+          - 2. [ ] Add Player Collsion
           - 3. [x] Fix Player SDL Rendering
        - Sound
           - 1. [ ] Implement Sound
           - 2. [ ] Implement Ogg decoding
           - 3. [ ] Implement Mp3 decoding
           - 4. [ ] Implement Close function
+      - Rendering
+            -Entity
+               -Player
+                 -1. [ ] Implement Player Rendering in All Graphics APIS
 - Server/Client
      - General
         - 1. [ ] Give the Project a name 
