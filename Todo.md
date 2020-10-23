@@ -9,10 +9,12 @@
           - 2. [ ] Implement Ogg decoding
           - 3. [ ] Implement Mp3 decoding
           - 4. [ ] Implement Close function
-      - Rendering
-            -Entity
-               -Player
-                 -1. [ ] Implement Player Rendering in All Graphics APIS
+        - Rendering
+            - Entity
+               - Player
+                 - 1. [ ] Implement Player Rendering in All Graphics APIS
+                - Collision Test
+                  - 1. [ ] Implement Collsion Rendering in All Graphics APIS
 - Server/Client
      - General
         - 1. [ ] Give the Project a name 
