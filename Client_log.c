@@ -10,7 +10,7 @@ void Client_Logger_Log(Client_Log_Level cll,const char* message){
 printf("%s%s%s%s:%s","[",Client_Logger_GetLoglevelFromClientLogLevel(cll),"]",__FUNCTION__,message);
 }
 void Client_Logger_Logf(Client_Log_Level cll,const char* message,...){
-
+//printf("%s%s%s%s","[",Client_Logger_GetLoglevelFromClientLogLevel(cll),"]");
 }
 void Client_Logger_SetCustomLogLevel(Client_Log_Level cll,const char* level_name){
 
@@ -27,6 +27,6 @@ const char* Client_Logger_GetLoglevelFromClientLogLevel(Client_Log_Level cll){
    }else if(cll == SEVERE){
     return "Severe";
    }else{
-	   return "The specifed argument doesn't have a string rep!";
+	   return "The specified argument doesn't have a string rep!";
    }
 }

@@ -11,6 +11,7 @@ void Audio_Open(snd_open_func open_func)
 
 void Audio_Play(snd_play_func play_func)
 {
+
 }
 
 void Audio_Stop(snd_stop_func stop_func)

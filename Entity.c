@@ -31,19 +31,35 @@ void SetSize(int w, int h,rect rectangle)
 
 void SetWidth(int w)
 {
+	Entity_Rectangle.w = w;
 }
 
 void SetHeight(int h)
 {
+	Entity_Rectangle.h = h;
 }
 
-int GetSize()
+int* GetSize()
 {
-	return 0;
+	int* Size = 2;
+	if (Size[0] || Size[1] == 0){
+
+	}else{
+		Size[0] = Entity_Rectangle.w;
+		Size[1] = Entity_Rectangle.h;
+	}
+
+	return (Size);
+}
+
+void CullsionTest(EntityData ent_data, EntityData ent_other_data)
+{
+
 }
 
 void SendEntity(EntityData* entity)
 {
+
 }
 
 void SendCullsionData()

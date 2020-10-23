@@ -1,9 +1,11 @@
 #pragma once
-#include"Main.h"
-typedef enum {
+#include<SDL_net.h>
+typedef enum CLIENT_ERROR {
 	CLIENT_ERROR_FAILED_TO_CONNECT_TO_HOST,
+	CLIENT_ERROR_FAILED_TO_INIT_NETWORKING,
+	CLIENT_NO_ERROR
 }CLIENT_ERROR;
-
+CLIENT_ERROR current_client_error;
 /*Only one of these will be implemented depending on the type of program it is*/
 void SendClientVersion();
 void SendServerVersion();
@@ -14,14 +16,18 @@ void Init_Network();
 void HandleDisconnection();
 void SendData(void* data);
 void OnConnectFailed();
-void OnConnectSucess();
+void OnConnectSuccess();
 void OnDisconnection();
 
-typedef struct {
+/**
+ * \brief Version Structure
+ */
+typedef struct Version {
 	int major;
 	int minor;
 	int patch;
-	const char* Build_Type;
+	const char* build_type;
+	
 }Version;
 Version GetClientVersion();
 

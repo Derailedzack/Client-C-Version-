@@ -1,9 +1,9 @@
 #pragma once
 typedef void (snd_init_func)();
-typedef void (snd_open_func)();
+typedef void (snd_open_func)(const char* path);
 typedef void (snd_play_func)();
 typedef void(snd_stop_func)();
-typedef void (snd_close_func)();
+typedef void (snd_close_func)(const char* path);
 typedef void (snd_change_func)();
 void Audio_Init(snd_init_func init_func);
 void Audio_Open(snd_open_func open_func);
